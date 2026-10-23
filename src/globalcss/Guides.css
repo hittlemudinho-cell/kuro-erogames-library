@@ -1,0 +1,122 @@
+.guidesPage {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 24px 16px 48px;
+    color: #c9ced8;
+}
+
+/* Breadcrumb */
+.guidesCrumbs {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+    margin-bottom: 36px;
+    color: #aab0bd;
+}
+
+.guidesCrumbHome {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.guidesCrumbHome:hover {
+    text-decoration: underline;
+}
+
+.guidesCrumbSep {
+    opacity: 0.6;
+}
+
+/* Card */
+.guidesCard {
+    background: #202530;
+    border: 1px solid #2c3240;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.guidesCardHead {
+    padding: 28px 36px;
+    border-bottom: 1px solid #2c3240;
+}
+
+.guidesCardHead h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #fff;
+}
+
+.guidesCardBody {
+    padding: 32px 42px 40px;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
+
+.guidesCardBody h2 {
+    margin: 32px 0 14px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #b7bdc9;
+}
+
+.guidesCardBody h2:first-child {
+    margin-top: 0;
+}
+
+.guidesCardBody p {
+    margin: 0 0 14px;
+}
+
+.guidesCardBody strong {
+    color: #fff;
+}
+
+.guidesCardBody ul {
+    margin: 0 0 14px;
+    padding-left: 24px;
+}
+
+.guidesCardBody li {
+    margin-bottom: 4px;
+}
+
+.guidesDiscordBtn {
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px 22px;
+    border-radius: 8px;
+    background: #5865f2;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    transition: filter 0.15s;
+}
+
+.guidesDiscordBtn:hover {
+    filter: brightness(1.1);
+}
+
+@media (max-width: 640px) {
+    .guidesCardHead {
+        padding: 20px;
+    }
+
+    .guidesCardHead h1 {
+        font-size: 1.7rem;
+    }
+
+    .guidesCardBody {
+        padding: 22px 20px 28px;
+        font-size: 1rem;
+    }
+
+    .guidesCardBody h2 {
+        font-size: 1.35rem;
+    }
+}

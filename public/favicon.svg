@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Kuro mascot">
+  <title>Kuro</title>
+
+  <!-- Fundo -->
+  <rect width="64" height="64" rx="14" fill="#14161c"/>
+
+  <!-- Orelhas de gato -->
+  <polygon points="11,4 25,15 10,24" fill="#1b1520" stroke="#ff4fa3" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="14,10 21,15 13,19" fill="#ff4fa3" opacity="0.75"/>
+  <polygon points="53,4 39,15 54,24" fill="#1b1520" stroke="#ff4fa3" stroke-width="1.5" stroke-linejoin="round"/>
+  <polygon points="50,10 43,15 51,19" fill="#ff4fa3" opacity="0.75"/>
+
+  <!-- Cabelo (preto com pontas rosas) -->
+  <path d="M12 31 Q12 11 32 11 Q52 11 52 31 L52 46 Q52 51 47 51 L17 51 Q12 51 12 46 Z" fill="#1b1520"/>
+  <path d="M12 42 L21 42 L21 51 L17 51 Q12 51 12 46 Z" fill="#ff4fa3"/>
+  <path d="M52 42 L43 42 L43 51 L47 51 Q52 51 52 46 Z" fill="#ff4fa3"/>
+
+  <!-- Rosto -->
+  <ellipse cx="32" cy="34" rx="14" ry="13" fill="#ffe3d3"/>
+
+  <!-- Franja -->
+  <path d="M18 31 Q19 18 32 18 Q45 18 46 31 Q40 24.5 32 25.5 Q24 24.5 18 31 Z" fill="#1b1520"/>
+
+  <!-- Arco do headphone -->
+  <path d="M13 32 Q13 8 32 8 Q51 8 51 32" fill="none" stroke="#2a2433" stroke-width="4" stroke-linecap="round"/>
+  <path d="M13 32 Q13 8 32 8 Q51 8 51 32" fill="none" stroke="#ff4fa3" stroke-width="1" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Almofadas do headphone -->
+  <circle cx="13" cy="35" r="5.5" fill="#2a2433" stroke="#ff4fa3" stroke-width="1.5"/>
+  <circle cx="51" cy="35" r="5.5" fill="#2a2433" stroke="#ff4fa3" stroke-width="1.5"/>
+
+  <!-- Letra K no fone direito -->
+  <path d="M49.2 31.8 V38.2 M53 31.8 L49.6 35 L53 38.2" fill="none" stroke="#ffffff" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Óculos -->
+  <circle cx="25" cy="35" r="5.5" fill="#ffffff" fill-opacity="0.3" stroke="#111111" stroke-width="1.7"/>
+  <circle cx="39" cy="35" r="5.5" fill="#ffffff" fill-opacity="0.3" stroke="#111111" stroke-width="1.7"/>
+  <path d="M30.5 34.5 H33.5" stroke="#111111" stroke-width="1.7" stroke-linecap="round"/>
+
+  <!-- Olho aberto e olho piscando -->
+  <circle cx="25" cy="35" r="2.2" fill="#2a1a20"/>
+  <circle cx="25.8" cy="34.2" r="0.8" fill="#ffffff"/>
+  <path d="M36.5 35.5 Q39 33 41.5 35.5" fill="none" stroke="#2a1a20" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Sorriso e blush -->
+  <path d="M29 42 Q32 44.5 35 42" fill="none" stroke="#c0504d" stroke-width="1.3" stroke-linecap="round"/>
+  <ellipse cx="21" cy="41" rx="2" ry="1.1" fill="#ff8fb8" opacity="0.55"/>
+  <ellipse cx="43" cy="41" rx="2" ry="1.1" fill="#ff8fb8" opacity="0.55"/>
+</svg>
