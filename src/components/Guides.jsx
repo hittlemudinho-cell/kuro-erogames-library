@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import '../globalcss/Guides.css'
 
 // Troque pelo link de convite real do seu servidor
-const DISCORD_URL = 'https://discord.gg/q6E5nccvf'
+const DISCORD_URL = 'https://discord.gg/fkXAacbgtn'
 
 function Guides() {
     return (
