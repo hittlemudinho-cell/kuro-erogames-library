@@ -17,7 +17,7 @@ function App() {
       <AgeGate />
 
       <Routes>
-        <Analytics/>
+        
         {/* Rota principal: HomePage (que já carrega o Header e os GamesRecentes) */}
         <Route path="/" element={<HomePage />} />
 
@@ -66,6 +66,7 @@ function App() {
             </>
           }
         />
+        <Analytics/>
       </Routes>
     </>
   )
