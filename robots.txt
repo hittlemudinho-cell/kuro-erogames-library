@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /login
 
-Sitemap: https://SEU-DOMINIO.com/sitemap.xml
+Sitemap: https://kuro-erogames-library.vercel.app/sitemap.xml

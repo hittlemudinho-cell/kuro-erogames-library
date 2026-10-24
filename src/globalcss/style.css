@@ -1565,23 +1565,27 @@ body.spModalOpen {
     }
 }
 
-/* ---------- Responsivo ---------- */
+/* ---------- Responsivo: grade de cards ---------- */
+/* Desktop: 3 colunas (regra base). Tablet: 2 colunas. Celular: 1 coluna. */
 @media (max-width: 960px) {
     .gamesRecentes {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-}
-
-@media (max-width: 700px) {
-    .gamesRecentes {
         grid-template-columns: repeat(2, minmax(0, 1fr));
-        gap: 14px;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 640px) {
     .gamesRecentes {
         grid-template-columns: minmax(0, 1fr);
+        gap: 16px;
+        padding: 16px;
+    }
+
+    .searchPageTop {
+        margin-left: 16px;
+    }
+
+    .searchPageTop h2 {
+        font-size: 26px;
     }
 }
 
@@ -1689,4 +1693,3 @@ body.spModalOpen {
         transition: none;
     }
 }
-
