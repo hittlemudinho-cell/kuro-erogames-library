@@ -8,6 +8,7 @@ import Category from './components/Category'
 import Guides from './components/Guides'
 import SearchResults from './components/SearchResults'
 import AgeGate from './components/AgeGate'
+import { Analytics } from "@vercel/analytics/next"
 
 function App() {
   return (
