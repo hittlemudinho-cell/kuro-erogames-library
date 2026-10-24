@@ -8,7 +8,7 @@ import Category from './components/Category'
 import Guides from './components/Guides'
 import SearchResults from './components/SearchResults'
 import AgeGate from './components/AgeGate'
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -17,6 +17,7 @@ function App() {
       <AgeGate />
 
       <Routes>
+        <Analytics/>
         {/* Rota principal: HomePage (que já carrega o Header e os GamesRecentes) */}
         <Route path="/" element={<HomePage />} />
 
